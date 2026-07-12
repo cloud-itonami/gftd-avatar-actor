@@ -1,6 +1,6 @@
 (ns avatar.governor
   "AssetGovernor — the independent layer that earns the round's co-scientist
-  winner the right to be committed/published (ADR-2607122400 §4). A pure,
+  winner the right to be committed/published (ADR-2607123000 §4). A pure,
   structural gate (same discipline as `cloud_itonami.media/governor-violations`
   — not a semantic quality judge, avatar.cosci already ran that; this
   re-checks hard invariants avatar.judge/avatar.cosci have no notion of:
