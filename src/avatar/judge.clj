@@ -11,7 +11,7 @@
   quality — NOT the actual visual result of the VRM compositing job (mesh
   fit, texture quality, silhouette). A real perceptual judge (a vision-
   capable critique call against the exported VRM's rendered preview) is
-  follow-up work — see ADR-2607122200 Consequences."
+  follow-up work — see ADR-2607122400 Consequences."
   (:require [cheshire.core :as json]
             [clojure.string :as str])
   (:import [java.net URI]

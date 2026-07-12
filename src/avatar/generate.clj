@@ -1,5 +1,5 @@
 (ns avatar.generate
-  "Pure(ish) candidate builder for one co-scientist round (ADR-2607122200
+  "Pure(ish) candidate builder for one co-scientist round (ADR-2607122400
   §2/§3) — a PLAIN `.clj` (not `.cljc`, unlike illust.generate), because
   unlike `:image`'s pure text-prompt generation, `:vrm-compose`/`:kisekae`
   needs `System/getenv` up front (see below) and there is no JVM-free runtime

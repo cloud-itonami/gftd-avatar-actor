@@ -1,6 +1,6 @@
 (ns avatar.murakumo
   "JVM I/O edge: submit/poll generation jobs against the REAL murakumo
-  distributed generation backend (ADR-2607122200 §3), reusing
+  distributed generation backend (ADR-2607122400 §3), reusing
   `cloud-murakumo.gen`/`cloud-murakumo.queue-kotoba` verbatim (sibling
   gftdcojp repo, `:local/root` dep — see deps.edn) rather than re-deriving
   the job-normalization / kotoba-queue wire protocol here.

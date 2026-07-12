@@ -2,7 +2,7 @@
 
 A **VRM avatar compositing** loop actor for
 [`network-isekai`](https://github.com/gftdcojp/network-isekai), gftdcojp's
-fifth of seven per-modality asset actors (ADR-2607122200). Persona: **ソウ
+fifth of seven per-modality asset actors (ADR-2607122400). Persona: **ソウ
 (Sō)**, 衣装師 (costumer) — "重ね着の間合いを整える衣装師。着崩れない一着を
 選ぶ — 派手さより着ている本人の自然さを優先する" (see `resources/persona.edn`).
 Sibling actors: `gftd-illust-actor` (illustration), `gftd-sculpt-actor` (3D),
@@ -91,7 +91,7 @@ for games to consume.
 Unlike a typical actor repo, `assets/` here is **git-annex + Backblaze B2**
 (`-c text2git`: code/EDN stay plain git, binaries get annexed) — accepted
 assets are saved straight into this repo and pushed to B2, so "actor's own
-git repo" and "asset storage" are the same thing (ADR-2607122200 §5).
+git repo" and "asset storage" are the same thing (ADR-2607122400 §5).
 `assets/<id>.edn` is written in the `network-isekai` `isekai.asset` manifest
 shape so a later Asset Hub import needs no conversion.
 
@@ -126,7 +126,7 @@ CACAO identity is self-minted to `.avatar/identity.edn` on first run
 
 ## Design
 
-ADR-2607122200 (`network-isekai 向け murakumo 生成アセット持続ループ actor
+ADR-2607122400 (`network-isekai 向け murakumo 生成アセット持続ループ actor
 群`) is the SSoT for this actor and its six siblings. Direct code ancestry:
 `cloud-itonami`'s `src/cloud_itonami/media/{murakumo,aozora,cacao,publisher,
 publish}.clj(c)` (murakumo→governor→aozora pipeline), `cloud-murakumo`'s

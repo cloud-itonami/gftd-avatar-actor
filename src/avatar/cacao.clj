@@ -4,7 +4,7 @@
   `tashikame.cacao` / `kotoba.cacao`) — deliberately NOT built on
   `io.github.kotoba-lang/org-chainagnostic-cacao`, since this SIWE+CBOR
   implementation is the one with real published-record history against
-  pds.aozora.app (ADR-2607122200 §6; kawaraban: 52 real records as of
+  pds.aozora.app (ADR-2607122400 §6; kawaraban: 52 real records as of
   ADR-2607110200).
 
   The private key is persisted to `.avatar/identity.edn` (gitignored) —
