@@ -12,7 +12,7 @@
   fit, texture quality, silhouette). A real perceptual judge (a vision-
   capable critique call against the exported VRM's rendered preview) is
   follow-up work — see ADR-2607123000 Consequences."
-  (:require [cheshire.core :as json]
+  (:require [json.compat :as json]
             [clojure.string :as str])
   (:import [java.net URI]
            [java.net.http HttpClient HttpRequest HttpRequest$BodyPublishers HttpResponse$BodyHandlers]
